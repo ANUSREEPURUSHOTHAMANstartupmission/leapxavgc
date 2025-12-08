@@ -1,0 +1,84 @@
+---
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+import Navbarbottom from "../components/Navbar.svelte";
+
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    <head>
+       <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Pixel-plus">
+        <meta name="description" content="KSUM | Accelerating the Future of AVGC-XR.">
+        <!-- ======== Page title ============ -->
+        <title>KSUM | AVGC-XR</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+                            
+    </head>
+    <body>
+
+	<slot />
+
+
+
+ <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js" is:inline></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js" is:inline></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js" is:inline></script>
+        <!--<< nice-selec Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js" is:inline></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js" is:inline></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js" is:inline></script>
+         <script src="assets/js/gsap.min.js" is:inline></script>
+        <!--<< Gsap Scroll Trigger To Plugin Js >>-->
+        <script src="assets/js/gsap-scroll-to-plugin.js" is:inline></script>
+        <!--<< Gsap Scroll Trigger Smoother Js >>-->
+        <script src="assets/js/gsap-scroll-smoother.js" is:inline></script>
+        <!--<< Gsap Scroll Trigger Js >>-->
+        <script src="assets/js/gsap-scroll-trigger.js" is:inline></script>
+        <!--<< Splittext Min Js >>-->
+        <script src="assets/js/SplitText.min.js" is:inline></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js" is:inline></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js" is:inline></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js" is:inline></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js" is:inline></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js" is:inline></script>
+        
+
+    </body>
+</html>
