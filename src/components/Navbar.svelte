@@ -108,7 +108,7 @@
    -translate-x-full  fixed z-50
     {menu_open?'translate-x-0':''}
    ">
-     <div class="flex bg-white top-4 absolute spl_cursor">   
+     <div class="hidden bg-white top-4 absolute spl_cursor">   
         <button on:click="{()=> menu_open = !menu_open }" class="z-50 spl_cursor bg-white cursor-pointer fixed right-5 w-10 h-10 text-xl ml-auto transition duration-150 leading-none px-2 py-1  -solid -transparent rounded bg-transparent block outline-none focus:outline-none" type="button">
             <span class="block spl_cursor absolute w-6 h-1 rounded-sm bg-black top-3 duration-500 { menu_open ? 'opacity-0':'' }" ></span>
             <span class="block spl_cursor absolute w-6 h-1 rounded-sm bg-black duration-500 { menu_open ? 'transform rotate-45':'' }"></span>
